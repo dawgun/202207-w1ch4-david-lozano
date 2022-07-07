@@ -57,7 +57,7 @@ body {
 
 .ingredient-list__ingredient {
   display: flex;
-  padding: 10px 10px;
+  padding: var(--padding-web);
 
   justify-content: space-between;
 }
@@ -74,4 +74,35 @@ body {
   text-align: end;
   padding: var(--padding-web);
   font-size: 1.5rem;
+}
+
+.menu--selected {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+}
+
+.edit-article-box {
+  width: 175px;
+  height: 50px;
+  border: 0px;
+}
+
+.ingredient-list__form {
+  padding: var(--padding-web);
+}
+
+label,
+input {
+  margin-bottom: 10px;
+}
+
+.button-modify {
+  color: white;
+  background-color: rgb(101, 128, 203);
+  border: 0px;
+  font-size: 1rem;
+  padding: 10px;
 }
